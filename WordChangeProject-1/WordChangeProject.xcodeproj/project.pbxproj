@@ -1,0 +1,1125 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D51B50801EAF781F00A8BA74 /* KLMeSquareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D51B507F1EAF781F00A8BA74 /* KLMeSquareModel.m */; };
+		D51B50831EB088FA00A8BA74 /* KLMeSquareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D51B50821EB088FA00A8BA74 /* KLMeSquareButton.m */; };
+		D51B50871EB8A80100A8BA74 /* KLWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D51B50851EB8A80100A8BA74 /* KLWebViewController.m */; };
+		D51B50881EB8A80100A8BA74 /* KLWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D51B50861EB8A80100A8BA74 /* KLWebViewController.xib */; };
+		D51B508B1EB9A9EF00A8BA74 /* KLSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D51B508A1EB9A9EF00A8BA74 /* KLSettingViewController.m */; };
+		D51B508E1EB9DE6800A8BA74 /* NSString+KLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D51B508D1EB9DE6800A8BA74 /* NSString+KLExtension.m */; };
+		D51B50911EBACC2000A8BA74 /* KLClearCacheCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D51B50901EBACC2000A8BA74 /* KLClearCacheCell.m */; };
+		D52683281EDEA9F9006B4D8A /* KLTieziPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = D52683271EDEA9F9006B4D8A /* KLTieziPictureView.m */; };
+		D526832A1EDEAA04006B4D8A /* KLTieziPictureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D52683291EDEAA04006B4D8A /* KLTieziPictureView.xib */; };
+		D526832E1EDEAB80006B4D8A /* KLTopicVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = D526832D1EDEAB80006B4D8A /* KLTopicVideoView.m */; };
+		D52683301EDEAB8D006B4D8A /* KLTopicVideoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D526832F1EDEAB8D006B4D8A /* KLTopicVideoView.xib */; };
+		D52683381EDEAE10006B4D8A /* KLTopicVoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = D52683371EDEAE10006B4D8A /* KLTopicVoiceView.m */; };
+		D526833A1EDEAE1C006B4D8A /* KLTopicVoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D52683391EDEAE1C006B4D8A /* KLTopicVoiceView.xib */; };
+		D526833D1EE044B5006B4D8A /* KLMainTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D526833C1EE044B5006B4D8A /* KLMainTopicViewController.m */; };
+		D52683411EE0F4A7006B4D8A /* KLPlayVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D52683401EE0F4A7006B4D8A /* KLPlayVideoViewController.m */; };
+		D53276461EC936EC004DF5D2 /* KLAllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D53276451EC936EC004DF5D2 /* KLAllViewController.m */; };
+		D53276491EC93704004DF5D2 /* KLVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D53276481EC93704004DF5D2 /* KLVideoViewController.m */; };
+		D532764C1EC9371D004DF5D2 /* KLVoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D532764B1EC9371D004DF5D2 /* KLVoiceViewController.m */; };
+		D532764F1EC93735004DF5D2 /* KLPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D532764E1EC93735004DF5D2 /* KLPictureViewController.m */; };
+		D53276521EC93741004DF5D2 /* KLDzViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D53276511EC93741004DF5D2 /* KLDzViewController.m */; };
+		D53276551ECA8BCA004DF5D2 /* KLTieziModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D53276541ECA8BCA004DF5D2 /* KLTieziModel.m */; };
+		D532765B1ECB321B004DF5D2 /* KLRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = D532765A1ECB321B004DF5D2 /* KLRefreshHeader.m */; };
+		D532765E1ED28C07004DF5D2 /* KLRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = D532765D1ED28C07004DF5D2 /* KLRefreshFooter.m */; };
+		D53276601ED2DBD7004DF5D2 /* KLTopicsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D532765F1ED2DBD7004DF5D2 /* KLTopicsCell.xib */; };
+		D53276631ED2DC1F004DF5D2 /* KLTopicsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D53276621ED2DC1F004DF5D2 /* KLTopicsCell.m */; };
+		D532766C1ED6BCA3004DF5D2 /* NSCalendar+KLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D532766B1ED6BCA3004DF5D2 /* NSCalendar+KLExtension.m */; };
+		D532766F1ED6C5E4004DF5D2 /* NSDate+KLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D532766E1ED6C5E4004DF5D2 /* NSDate+KLExtension.m */; };
+		D53276721ED909DA004DF5D2 /* KLUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D53276711ED909DA004DF5D2 /* KLUserModel.m */; };
+		D53276781ED909FC004DF5D2 /* KLCommentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D53276771ED909FC004DF5D2 /* KLCommentModel.m */; };
+		D5BD26BF1EE5890700BB0072 /* KLRecommendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BD26BD1EE5890700BB0072 /* KLRecommendCell.m */; };
+		D5BD26C01EE5890700BB0072 /* KLRecommendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5BD26BE1EE5890700BB0072 /* KLRecommendCell.xib */; };
+		D71F276040D54F4E1F261880 /* libPods-WordChangeProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 569DD852A44455B039912AEA /* libPods-WordChangeProject.a */; };
+		F402C77A1EA9BA3E00A00D30 /* UITextField+KLExtenstion.m in Sources */ = {isa = PBXBuildFile; fileRef = F402C7791EA9BA3E00A00D30 /* UITextField+KLExtenstion.m */; };
+		F40890771EAC8C7F0025ED27 /* KLconst.m in Sources */ = {isa = PBXBuildFile; fileRef = F40890761EAC8C7F0025ED27 /* KLconst.m */; };
+		F408907A1EAC8EF20025ED27 /* KLMeViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F40890791EAC8EF20025ED27 /* KLMeViewCell.m */; };
+		F457F8F51E8BDD880031EA7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F457F8F41E8BDD880031EA7A /* Assets.xcassets */; };
+		F457F9031E8BDD880031EA7A /* WordChangeProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F457F9021E8BDD880031EA7A /* WordChangeProjectTests.m */; };
+		F457F90E1E8BDD880031EA7A /* WordChangeProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F457F90D1E8BDD880031EA7A /* WordChangeProjectUITests.m */; };
+		F479DD311EA08CD7000F9623 /* KLfriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F479DD301EA08CD7000F9623 /* KLfriendTrendsViewController.xib */; };
+		F479DD3A1EA0C852000F9623 /* KLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F479DD341EA0C852000F9623 /* KLNavigationController.m */; };
+		F479DD3B1EA0C852000F9623 /* KLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F479DD361EA0C852000F9623 /* KLTabBarController.m */; };
+		F479DD3C1EA0C852000F9623 /* KLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F479DD391EA0C852000F9623 /* KLTabBar.m */; };
+		F479DD401EA0C8A0000F9623 /* KLLoginRegistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F479DD3E1EA0C8A0000F9623 /* KLLoginRegistViewController.m */; };
+		F479DD411EA0C8A0000F9623 /* KLLoginRegistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F479DD3F1EA0C8A0000F9623 /* KLLoginRegistViewController.xib */; };
+		F479DD441EA35F2B000F9623 /* KLQuickLoginBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = F479DD431EA35F2B000F9623 /* KLQuickLoginBtn.m */; };
+		F479DD471EA6107C000F9623 /* KLLoginRegistTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F479DD461EA6107C000F9623 /* KLLoginRegistTextField.m */; };
+		F4B638691E9BBF9000F7A1AC /* KLEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B6383D1E9BBF9000F7A1AC /* KLEssenceViewController.m */; };
+		F4B6386B1E9BBF9000F7A1AC /* KLfriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B638491E9BBF9000F7A1AC /* KLfriendTrendsViewController.m */; };
+		F4B6386E1E9BBF9000F7A1AC /* KLMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B638541E9BBF9000F7A1AC /* KLMeViewController.m */; };
+		F4B6386F1E9BBF9000F7A1AC /* KLnewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B6385A1E9BBF9000F7A1AC /* KLnewViewController.m */; };
+		F4B638701E9BBF9000F7A1AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B6385F1E9BBF9000F7A1AC /* AppDelegate.m */; };
+		F4B638711E9BBF9000F7A1AC /* NSDateUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B638631E9BBF9000F7A1AC /* NSDateUtilities.m */; };
+		F4B638721E9BBF9000F7A1AC /* UIImage+XMGResizing.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B638651E9BBF9000F7A1AC /* UIImage+XMGResizing.m */; };
+		F4B638731E9BBF9000F7A1AC /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B638671E9BBF9000F7A1AC /* UIViewExt.m */; };
+		F4B638741E9BBF9000F7A1AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B638681E9BBF9000F7A1AC /* main.m */; };
+		F4B638771E9CDAFD00F7A1AC /* KLItemManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B638761E9CDAFD00F7A1AC /* KLItemManager.m */; };
+		F4CA7B371EADF8850089FF58 /* KLMeFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CA7B361EADF8850089FF58 /* KLMeFooterView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F457F8FF1E8BDD880031EA7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F457F8DD1E8BDD880031EA7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F457F8E41E8BDD880031EA7A;
+			remoteInfo = WordChangeProject;
+		};
+		F457F90A1E8BDD880031EA7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F457F8DD1E8BDD880031EA7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F457F8E41E8BDD880031EA7A;
+			remoteInfo = WordChangeProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		569DD852A44455B039912AEA /* libPods-WordChangeProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WordChangeProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5454FD2BE1C4D0CEEB7AFC9 /* Pods-WordChangeProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WordChangeProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-WordChangeProject/Pods-WordChangeProject.release.xcconfig"; sourceTree = "<group>"; };
+		B6D970022CEA8BCEB0D28BB4 /* Pods-WordChangeProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WordChangeProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WordChangeProject/Pods-WordChangeProject.debug.xcconfig"; sourceTree = "<group>"; };
+		D51B507E1EAF781F00A8BA74 /* KLMeSquareModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLMeSquareModel.h; sourceTree = "<group>"; };
+		D51B507F1EAF781F00A8BA74 /* KLMeSquareModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLMeSquareModel.m; sourceTree = "<group>"; };
+		D51B50811EB088FA00A8BA74 /* KLMeSquareButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLMeSquareButton.h; sourceTree = "<group>"; };
+		D51B50821EB088FA00A8BA74 /* KLMeSquareButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLMeSquareButton.m; sourceTree = "<group>"; };
+		D51B50841EB8A80100A8BA74 /* KLWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLWebViewController.h; sourceTree = "<group>"; };
+		D51B50851EB8A80100A8BA74 /* KLWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLWebViewController.m; sourceTree = "<group>"; };
+		D51B50861EB8A80100A8BA74 /* KLWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KLWebViewController.xib; sourceTree = "<group>"; };
+		D51B50891EB9A9EF00A8BA74 /* KLSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLSettingViewController.h; sourceTree = "<group>"; };
+		D51B508A1EB9A9EF00A8BA74 /* KLSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLSettingViewController.m; sourceTree = "<group>"; };
+		D51B508C1EB9DE6800A8BA74 /* NSString+KLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+KLExtension.h"; sourceTree = "<group>"; };
+		D51B508D1EB9DE6800A8BA74 /* NSString+KLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+KLExtension.m"; sourceTree = "<group>"; };
+		D51B508F1EBACC2000A8BA74 /* KLClearCacheCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLClearCacheCell.h; sourceTree = "<group>"; };
+		D51B50901EBACC2000A8BA74 /* KLClearCacheCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLClearCacheCell.m; sourceTree = "<group>"; };
+		D52683261EDEA9F9006B4D8A /* KLTieziPictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLTieziPictureView.h; sourceTree = "<group>"; };
+		D52683271EDEA9F9006B4D8A /* KLTieziPictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLTieziPictureView.m; sourceTree = "<group>"; };
+		D52683291EDEAA04006B4D8A /* KLTieziPictureView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KLTieziPictureView.xib; sourceTree = "<group>"; };
+		D526832C1EDEAB80006B4D8A /* KLTopicVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLTopicVideoView.h; sourceTree = "<group>"; };
+		D526832D1EDEAB80006B4D8A /* KLTopicVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLTopicVideoView.m; sourceTree = "<group>"; };
+		D526832F1EDEAB8D006B4D8A /* KLTopicVideoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KLTopicVideoView.xib; sourceTree = "<group>"; };
+		D52683361EDEAE10006B4D8A /* KLTopicVoiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLTopicVoiceView.h; sourceTree = "<group>"; };
+		D52683371EDEAE10006B4D8A /* KLTopicVoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLTopicVoiceView.m; sourceTree = "<group>"; };
+		D52683391EDEAE1C006B4D8A /* KLTopicVoiceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KLTopicVoiceView.xib; sourceTree = "<group>"; };
+		D526833B1EE044B5006B4D8A /* KLMainTopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLMainTopicViewController.h; sourceTree = "<group>"; };
+		D526833C1EE044B5006B4D8A /* KLMainTopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLMainTopicViewController.m; sourceTree = "<group>"; };
+		D526833F1EE0F4A7006B4D8A /* KLPlayVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLPlayVideoViewController.h; sourceTree = "<group>"; };
+		D52683401EE0F4A7006B4D8A /* KLPlayVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLPlayVideoViewController.m; sourceTree = "<group>"; };
+		D53276441EC936EC004DF5D2 /* KLAllViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLAllViewController.h; sourceTree = "<group>"; };
+		D53276451EC936EC004DF5D2 /* KLAllViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLAllViewController.m; sourceTree = "<group>"; };
+		D53276471EC93704004DF5D2 /* KLVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLVideoViewController.h; sourceTree = "<group>"; };
+		D53276481EC93704004DF5D2 /* KLVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLVideoViewController.m; sourceTree = "<group>"; };
+		D532764A1EC9371D004DF5D2 /* KLVoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLVoiceViewController.h; sourceTree = "<group>"; };
+		D532764B1EC9371D004DF5D2 /* KLVoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLVoiceViewController.m; sourceTree = "<group>"; };
+		D532764D1EC93735004DF5D2 /* KLPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLPictureViewController.h; sourceTree = "<group>"; };
+		D532764E1EC93735004DF5D2 /* KLPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLPictureViewController.m; sourceTree = "<group>"; };
+		D53276501EC93741004DF5D2 /* KLDzViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLDzViewController.h; sourceTree = "<group>"; };
+		D53276511EC93741004DF5D2 /* KLDzViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLDzViewController.m; sourceTree = "<group>"; };
+		D53276531ECA8BCA004DF5D2 /* KLTieziModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLTieziModel.h; sourceTree = "<group>"; };
+		D53276541ECA8BCA004DF5D2 /* KLTieziModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLTieziModel.m; sourceTree = "<group>"; };
+		D53276591ECB321B004DF5D2 /* KLRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLRefreshHeader.h; sourceTree = "<group>"; };
+		D532765A1ECB321B004DF5D2 /* KLRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLRefreshHeader.m; sourceTree = "<group>"; };
+		D532765C1ED28C07004DF5D2 /* KLRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLRefreshFooter.h; sourceTree = "<group>"; };
+		D532765D1ED28C07004DF5D2 /* KLRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLRefreshFooter.m; sourceTree = "<group>"; };
+		D532765F1ED2DBD7004DF5D2 /* KLTopicsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KLTopicsCell.xib; sourceTree = "<group>"; };
+		D53276611ED2DC1F004DF5D2 /* KLTopicsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLTopicsCell.h; sourceTree = "<group>"; };
+		D53276621ED2DC1F004DF5D2 /* KLTopicsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLTopicsCell.m; sourceTree = "<group>"; };
+		D532766A1ED6BCA3004DF5D2 /* NSCalendar+KLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+KLExtension.h"; sourceTree = "<group>"; };
+		D532766B1ED6BCA3004DF5D2 /* NSCalendar+KLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+KLExtension.m"; sourceTree = "<group>"; };
+		D532766D1ED6C5E4004DF5D2 /* NSDate+KLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+KLExtension.h"; sourceTree = "<group>"; };
+		D532766E1ED6C5E4004DF5D2 /* NSDate+KLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+KLExtension.m"; sourceTree = "<group>"; };
+		D53276701ED909DA004DF5D2 /* KLUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLUserModel.h; sourceTree = "<group>"; };
+		D53276711ED909DA004DF5D2 /* KLUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLUserModel.m; sourceTree = "<group>"; };
+		D53276761ED909FC004DF5D2 /* KLCommentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLCommentModel.h; sourceTree = "<group>"; };
+		D53276771ED909FC004DF5D2 /* KLCommentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLCommentModel.m; sourceTree = "<group>"; };
+		D5BD26BC1EE5890700BB0072 /* KLRecommendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLRecommendCell.h; sourceTree = "<group>"; };
+		D5BD26BD1EE5890700BB0072 /* KLRecommendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLRecommendCell.m; sourceTree = "<group>"; };
+		D5BD26BE1EE5890700BB0072 /* KLRecommendCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KLRecommendCell.xib; sourceTree = "<group>"; };
+		F402C7781EA9BA3E00A00D30 /* UITextField+KLExtenstion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+KLExtenstion.h"; sourceTree = "<group>"; };
+		F402C7791EA9BA3E00A00D30 /* UITextField+KLExtenstion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+KLExtenstion.m"; sourceTree = "<group>"; };
+		F40890751EAC8C7F0025ED27 /* KLconst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KLconst.h; path = ../../Me/View/KLconst.h; sourceTree = "<group>"; };
+		F40890761EAC8C7F0025ED27 /* KLconst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KLconst.m; path = ../../Me/View/KLconst.m; sourceTree = "<group>"; };
+		F40890781EAC8EF20025ED27 /* KLMeViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLMeViewCell.h; sourceTree = "<group>"; };
+		F40890791EAC8EF20025ED27 /* KLMeViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLMeViewCell.m; sourceTree = "<group>"; };
+		F457F8E51E8BDD880031EA7A /* WordChangeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordChangeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F457F8F41E8BDD880031EA7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F457F8F91E8BDD880031EA7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F457F8FE1E8BDD880031EA7A /* WordChangeProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordChangeProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F457F9021E8BDD880031EA7A /* WordChangeProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordChangeProjectTests.m; sourceTree = "<group>"; };
+		F457F9041E8BDD880031EA7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F457F9091E8BDD880031EA7A /* WordChangeProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordChangeProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F457F90D1E8BDD880031EA7A /* WordChangeProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordChangeProjectUITests.m; sourceTree = "<group>"; };
+		F457F90F1E8BDD880031EA7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F479DD301EA08CD7000F9623 /* KLfriendTrendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KLfriendTrendsViewController.xib; sourceTree = "<group>"; };
+		F479DD331EA0C852000F9623 /* KLNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLNavigationController.h; sourceTree = "<group>"; };
+		F479DD341EA0C852000F9623 /* KLNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLNavigationController.m; sourceTree = "<group>"; };
+		F479DD351EA0C852000F9623 /* KLTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLTabBarController.h; sourceTree = "<group>"; };
+		F479DD361EA0C852000F9623 /* KLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLTabBarController.m; sourceTree = "<group>"; };
+		F479DD381EA0C852000F9623 /* KLTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLTabBar.h; sourceTree = "<group>"; };
+		F479DD391EA0C852000F9623 /* KLTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLTabBar.m; sourceTree = "<group>"; };
+		F479DD3D1EA0C8A0000F9623 /* KLLoginRegistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLLoginRegistViewController.h; sourceTree = "<group>"; };
+		F479DD3E1EA0C8A0000F9623 /* KLLoginRegistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLLoginRegistViewController.m; sourceTree = "<group>"; };
+		F479DD3F1EA0C8A0000F9623 /* KLLoginRegistViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KLLoginRegistViewController.xib; sourceTree = "<group>"; };
+		F479DD421EA35F2B000F9623 /* KLQuickLoginBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLQuickLoginBtn.h; sourceTree = "<group>"; };
+		F479DD431EA35F2B000F9623 /* KLQuickLoginBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLQuickLoginBtn.m; sourceTree = "<group>"; };
+		F479DD451EA6107C000F9623 /* KLLoginRegistTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLLoginRegistTextField.h; sourceTree = "<group>"; };
+		F479DD461EA6107C000F9623 /* KLLoginRegistTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLLoginRegistTextField.m; sourceTree = "<group>"; };
+		F4B6383C1E9BBF9000F7A1AC /* KLEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLEssenceViewController.h; sourceTree = "<group>"; };
+		F4B6383D1E9BBF9000F7A1AC /* KLEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLEssenceViewController.m; sourceTree = "<group>"; };
+		F4B638481E9BBF9000F7A1AC /* KLfriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLfriendTrendsViewController.h; sourceTree = "<group>"; };
+		F4B638491E9BBF9000F7A1AC /* KLfriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLfriendTrendsViewController.m; sourceTree = "<group>"; };
+		F4B638531E9BBF9000F7A1AC /* KLMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLMeViewController.h; sourceTree = "<group>"; };
+		F4B638541E9BBF9000F7A1AC /* KLMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLMeViewController.m; sourceTree = "<group>"; };
+		F4B638591E9BBF9000F7A1AC /* KLnewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLnewViewController.h; sourceTree = "<group>"; };
+		F4B6385A1E9BBF9000F7A1AC /* KLnewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLnewViewController.m; sourceTree = "<group>"; };
+		F4B6385E1E9BBF9000F7A1AC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F4B6385F1E9BBF9000F7A1AC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F4B638621E9BBF9000F7A1AC /* NSDateUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDateUtilities.h; sourceTree = "<group>"; };
+		F4B638631E9BBF9000F7A1AC /* NSDateUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDateUtilities.m; sourceTree = "<group>"; };
+		F4B638641E9BBF9000F7A1AC /* UIImage+XMGResizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XMGResizing.h"; sourceTree = "<group>"; };
+		F4B638651E9BBF9000F7A1AC /* UIImage+XMGResizing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XMGResizing.m"; sourceTree = "<group>"; };
+		F4B638661E9BBF9000F7A1AC /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		F4B638671E9BBF9000F7A1AC /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		F4B638681E9BBF9000F7A1AC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4B638751E9CDAFD00F7A1AC /* KLItemManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLItemManager.h; sourceTree = "<group>"; };
+		F4B638761E9CDAFD00F7A1AC /* KLItemManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLItemManager.m; sourceTree = "<group>"; };
+		F4B638791E9D03F800F7A1AC /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = Category/PrefixHeader.pch; sourceTree = "<group>"; };
+		F4CA7B351EADF8850089FF58 /* KLMeFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLMeFooterView.h; sourceTree = "<group>"; };
+		F4CA7B361EADF8850089FF58 /* KLMeFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLMeFooterView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F457F8E21E8BDD880031EA7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D71F276040D54F4E1F261880 /* libPods-WordChangeProject.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F457F8FB1E8BDD880031EA7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F457F9061E8BDD880031EA7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		737712B2C5FD25F147775A8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				569DD852A44455B039912AEA /* libPods-WordChangeProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D52683311EDEAD90006B4D8A /* KL-Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D532765F1ED2DBD7004DF5D2 /* KLTopicsCell.xib */,
+				D53276611ED2DC1F004DF5D2 /* KLTopicsCell.h */,
+				D53276621ED2DC1F004DF5D2 /* KLTopicsCell.m */,
+				D5BD26BC1EE5890700BB0072 /* KLRecommendCell.h */,
+				D5BD26BD1EE5890700BB0072 /* KLRecommendCell.m */,
+				D5BD26BE1EE5890700BB0072 /* KLRecommendCell.xib */,
+			);
+			name = "KL-Cell";
+			sourceTree = "<group>";
+		};
+		D52683321EDEADB5006B4D8A /* KL-CenterView */ = {
+			isa = PBXGroup;
+			children = (
+				D52683351EDEADFA006B4D8A /* voice */,
+				D52683341EDEADD8006B4D8A /* video */,
+				D52683331EDEADCE006B4D8A /* picture */,
+			);
+			name = "KL-CenterView";
+			sourceTree = "<group>";
+		};
+		D52683331EDEADCE006B4D8A /* picture */ = {
+			isa = PBXGroup;
+			children = (
+				D52683261EDEA9F9006B4D8A /* KLTieziPictureView.h */,
+				D52683271EDEA9F9006B4D8A /* KLTieziPictureView.m */,
+				D52683291EDEAA04006B4D8A /* KLTieziPictureView.xib */,
+			);
+			name = picture;
+			sourceTree = "<group>";
+		};
+		D52683341EDEADD8006B4D8A /* video */ = {
+			isa = PBXGroup;
+			children = (
+				D526833E1EE0F47D006B4D8A /* Conroller */,
+				D526832C1EDEAB80006B4D8A /* KLTopicVideoView.h */,
+				D526832D1EDEAB80006B4D8A /* KLTopicVideoView.m */,
+				D526832F1EDEAB8D006B4D8A /* KLTopicVideoView.xib */,
+			);
+			name = video;
+			sourceTree = "<group>";
+		};
+		D52683351EDEADFA006B4D8A /* voice */ = {
+			isa = PBXGroup;
+			children = (
+				D52683361EDEAE10006B4D8A /* KLTopicVoiceView.h */,
+				D52683371EDEAE10006B4D8A /* KLTopicVoiceView.m */,
+				D52683391EDEAE1C006B4D8A /* KLTopicVoiceView.xib */,
+			);
+			name = voice;
+			sourceTree = "<group>";
+		};
+		D526833E1EE0F47D006B4D8A /* Conroller */ = {
+			isa = PBXGroup;
+			children = (
+				D526833F1EE0F4A7006B4D8A /* KLPlayVideoViewController.h */,
+				D52683401EE0F4A7006B4D8A /* KLPlayVideoViewController.m */,
+			);
+			name = Conroller;
+			sourceTree = "<group>";
+		};
+		DBBDDF3E51990BBFCA88FEBF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6D970022CEA8BCEB0D28BB4 /* Pods-WordChangeProject.debug.xcconfig */,
+				B5454FD2BE1C4D0CEEB7AFC9 /* Pods-WordChangeProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F457F8DC1E8BDD880031EA7A = {
+			isa = PBXGroup;
+			children = (
+				F457F8E71E8BDD880031EA7A /* WordChangeProject */,
+				F457F9011E8BDD880031EA7A /* WordChangeProjectTests */,
+				F457F90C1E8BDD880031EA7A /* WordChangeProjectUITests */,
+				F457F8E61E8BDD880031EA7A /* Products */,
+				DBBDDF3E51990BBFCA88FEBF /* Pods */,
+				737712B2C5FD25F147775A8B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F457F8E61E8BDD880031EA7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F457F8E51E8BDD880031EA7A /* WordChangeProject.app */,
+				F457F8FE1E8BDD880031EA7A /* WordChangeProjectTests.xctest */,
+				F457F9091E8BDD880031EA7A /* WordChangeProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F457F8E71E8BDD880031EA7A /* WordChangeProject */ = {
+			isa = PBXGroup;
+			children = (
+				F4B638391E9BBF9000F7A1AC /* Classes */,
+				F457F8E81E8BDD880031EA7A /* Supporting Files */,
+			);
+			path = WordChangeProject;
+			sourceTree = "<group>";
+		};
+		F457F8E81E8BDD880031EA7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F457F91C1E8BDDAB0031EA7A /* rec */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F457F9011E8BDD880031EA7A /* WordChangeProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				F457F9021E8BDD880031EA7A /* WordChangeProjectTests.m */,
+				F457F9041E8BDD880031EA7A /* Info.plist */,
+			);
+			path = WordChangeProjectTests;
+			sourceTree = "<group>";
+		};
+		F457F90C1E8BDD880031EA7A /* WordChangeProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F457F90D1E8BDD880031EA7A /* WordChangeProjectUITests.m */,
+				F457F90F1E8BDD880031EA7A /* Info.plist */,
+			);
+			path = WordChangeProjectUITests;
+			sourceTree = "<group>";
+		};
+		F457F91C1E8BDDAB0031EA7A /* rec */ = {
+			isa = PBXGroup;
+			children = (
+				F457F8F41E8BDD880031EA7A /* Assets.xcassets */,
+				F457F8F91E8BDD880031EA7A /* Info.plist */,
+			);
+			name = rec;
+			sourceTree = "<group>";
+		};
+		F479DD321EA0C852000F9623 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F479DD331EA0C852000F9623 /* KLNavigationController.h */,
+				F479DD341EA0C852000F9623 /* KLNavigationController.m */,
+				F479DD351EA0C852000F9623 /* KLTabBarController.h */,
+				F479DD361EA0C852000F9623 /* KLTabBarController.m */,
+				F479DD3D1EA0C8A0000F9623 /* KLLoginRegistViewController.h */,
+				F479DD3E1EA0C8A0000F9623 /* KLLoginRegistViewController.m */,
+				F479DD3F1EA0C8A0000F9623 /* KLLoginRegistViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F479DD371EA0C852000F9623 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F479DD381EA0C852000F9623 /* KLTabBar.h */,
+				F479DD391EA0C852000F9623 /* KLTabBar.m */,
+				F479DD421EA35F2B000F9623 /* KLQuickLoginBtn.h */,
+				F479DD431EA35F2B000F9623 /* KLQuickLoginBtn.m */,
+				F479DD451EA6107C000F9623 /* KLLoginRegistTextField.h */,
+				F479DD461EA6107C000F9623 /* KLLoginRegistTextField.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F4B638391E9BBF9000F7A1AC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F4B6383A1E9BBF9000F7A1AC /* Essence */,
+				F4B638571E9BBF9000F7A1AC /* New */,
+				F4B638461E9BBF9000F7A1AC /* Follow */,
+				F4B638511E9BBF9000F7A1AC /* Me */,
+				F4B6385D1E9BBF9000F7A1AC /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F4B6383A1E9BBF9000F7A1AC /* Essence */ = {
+			isa = PBXGroup;
+			children = (
+				F4B6383B1E9BBF9000F7A1AC /* Controller */,
+				F4B6383E1E9BBF9000F7A1AC /* Model */,
+				F4B6383F1E9BBF9000F7A1AC /* View */,
+			);
+			path = Essence;
+			sourceTree = "<group>";
+		};
+		F4B6383B1E9BBF9000F7A1AC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F4B6383C1E9BBF9000F7A1AC /* KLEssenceViewController.h */,
+				F4B6383D1E9BBF9000F7A1AC /* KLEssenceViewController.m */,
+				D53276441EC936EC004DF5D2 /* KLAllViewController.h */,
+				D53276451EC936EC004DF5D2 /* KLAllViewController.m */,
+				D53276471EC93704004DF5D2 /* KLVideoViewController.h */,
+				D53276481EC93704004DF5D2 /* KLVideoViewController.m */,
+				D532764A1EC9371D004DF5D2 /* KLVoiceViewController.h */,
+				D532764B1EC9371D004DF5D2 /* KLVoiceViewController.m */,
+				D532764D1EC93735004DF5D2 /* KLPictureViewController.h */,
+				D532764E1EC93735004DF5D2 /* KLPictureViewController.m */,
+				D53276501EC93741004DF5D2 /* KLDzViewController.h */,
+				D53276511EC93741004DF5D2 /* KLDzViewController.m */,
+				D526833B1EE044B5006B4D8A /* KLMainTopicViewController.h */,
+				D526833C1EE044B5006B4D8A /* KLMainTopicViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F4B6383E1E9BBF9000F7A1AC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D53276531ECA8BCA004DF5D2 /* KLTieziModel.h */,
+				D53276541ECA8BCA004DF5D2 /* KLTieziModel.m */,
+				D53276701ED909DA004DF5D2 /* KLUserModel.h */,
+				D53276711ED909DA004DF5D2 /* KLUserModel.m */,
+				D53276761ED909FC004DF5D2 /* KLCommentModel.h */,
+				D53276771ED909FC004DF5D2 /* KLCommentModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F4B6383F1E9BBF9000F7A1AC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D52683321EDEADB5006B4D8A /* KL-CenterView */,
+				D52683311EDEAD90006B4D8A /* KL-Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F4B638461E9BBF9000F7A1AC /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+				F4B638471E9BBF9000F7A1AC /* Controller */,
+				F4B6384A1E9BBF9000F7A1AC /* Model */,
+				F4B6384B1E9BBF9000F7A1AC /* View */,
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		F4B638471E9BBF9000F7A1AC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F4B638481E9BBF9000F7A1AC /* KLfriendTrendsViewController.h */,
+				F4B638491E9BBF9000F7A1AC /* KLfriendTrendsViewController.m */,
+				F479DD301EA08CD7000F9623 /* KLfriendTrendsViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F4B6384A1E9BBF9000F7A1AC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F4B6384B1E9BBF9000F7A1AC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F4B6384C1E9BBF9000F7A1AC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F4CA78641EADB8070089FF58 /* Model */,
+				F479DD321EA0C852000F9623 /* Controller */,
+				F479DD371EA0C852000F9623 /* View */,
+			);
+			name = Main;
+			path = ../Main;
+			sourceTree = "<group>";
+		};
+		F4B638511E9BBF9000F7A1AC /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				F4B638521E9BBF9000F7A1AC /* Controller */,
+				F4B638551E9BBF9000F7A1AC /* Model */,
+				F4B638561E9BBF9000F7A1AC /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		F4B638521E9BBF9000F7A1AC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F4B638531E9BBF9000F7A1AC /* KLMeViewController.h */,
+				F4B638541E9BBF9000F7A1AC /* KLMeViewController.m */,
+				D51B50841EB8A80100A8BA74 /* KLWebViewController.h */,
+				D51B50851EB8A80100A8BA74 /* KLWebViewController.m */,
+				D51B50861EB8A80100A8BA74 /* KLWebViewController.xib */,
+				D51B50891EB9A9EF00A8BA74 /* KLSettingViewController.h */,
+				D51B508A1EB9A9EF00A8BA74 /* KLSettingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F4B638551E9BBF9000F7A1AC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D51B507E1EAF781F00A8BA74 /* KLMeSquareModel.h */,
+				D51B507F1EAF781F00A8BA74 /* KLMeSquareModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F4B638561E9BBF9000F7A1AC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F40890781EAC8EF20025ED27 /* KLMeViewCell.h */,
+				F40890791EAC8EF20025ED27 /* KLMeViewCell.m */,
+				F4CA7B351EADF8850089FF58 /* KLMeFooterView.h */,
+				F4CA7B361EADF8850089FF58 /* KLMeFooterView.m */,
+				D51B50811EB088FA00A8BA74 /* KLMeSquareButton.h */,
+				D51B50821EB088FA00A8BA74 /* KLMeSquareButton.m */,
+				D51B508F1EBACC2000A8BA74 /* KLClearCacheCell.h */,
+				D51B50901EBACC2000A8BA74 /* KLClearCacheCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F4B638571E9BBF9000F7A1AC /* New */ = {
+			isa = PBXGroup;
+			children = (
+				F4B638581E9BBF9000F7A1AC /* Controller */,
+				F4B6385B1E9BBF9000F7A1AC /* Model */,
+				F4B6385C1E9BBF9000F7A1AC /* View */,
+			);
+			path = New;
+			sourceTree = "<group>";
+		};
+		F4B638581E9BBF9000F7A1AC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F4B638591E9BBF9000F7A1AC /* KLnewViewController.h */,
+				F4B6385A1E9BBF9000F7A1AC /* KLnewViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F4B6385B1E9BBF9000F7A1AC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F4B6385C1E9BBF9000F7A1AC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F4B6385D1E9BBF9000F7A1AC /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				F4B638611E9BBF9000F7A1AC /* Utilities */,
+				F4B6384C1E9BBF9000F7A1AC /* Main */,
+				F4B638601E9BBF9000F7A1AC /* Category */,
+				F4B6385E1E9BBF9000F7A1AC /* AppDelegate.h */,
+				F4B6385F1E9BBF9000F7A1AC /* AppDelegate.m */,
+				F4B638681E9BBF9000F7A1AC /* main.m */,
+				F4B638791E9D03F800F7A1AC /* PrefixHeader.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		F4B638601E9BBF9000F7A1AC /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F40890751EAC8C7F0025ED27 /* KLconst.h */,
+				F40890761EAC8C7F0025ED27 /* KLconst.m */,
+				F4B638751E9CDAFD00F7A1AC /* KLItemManager.h */,
+				F4B638761E9CDAFD00F7A1AC /* KLItemManager.m */,
+				F402C7781EA9BA3E00A00D30 /* UITextField+KLExtenstion.h */,
+				F402C7791EA9BA3E00A00D30 /* UITextField+KLExtenstion.m */,
+				D51B508C1EB9DE6800A8BA74 /* NSString+KLExtension.h */,
+				D51B508D1EB9DE6800A8BA74 /* NSString+KLExtension.m */,
+				D53276591ECB321B004DF5D2 /* KLRefreshHeader.h */,
+				D532765A1ECB321B004DF5D2 /* KLRefreshHeader.m */,
+				D532765C1ED28C07004DF5D2 /* KLRefreshFooter.h */,
+				D532765D1ED28C07004DF5D2 /* KLRefreshFooter.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F4B638611E9BBF9000F7A1AC /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F4B638621E9BBF9000F7A1AC /* NSDateUtilities.h */,
+				F4B638631E9BBF9000F7A1AC /* NSDateUtilities.m */,
+				F4B638641E9BBF9000F7A1AC /* UIImage+XMGResizing.h */,
+				F4B638651E9BBF9000F7A1AC /* UIImage+XMGResizing.m */,
+				F4B638661E9BBF9000F7A1AC /* UIViewExt.h */,
+				F4B638671E9BBF9000F7A1AC /* UIViewExt.m */,
+				D532766A1ED6BCA3004DF5D2 /* NSCalendar+KLExtension.h */,
+				D532766B1ED6BCA3004DF5D2 /* NSCalendar+KLExtension.m */,
+				D532766D1ED6C5E4004DF5D2 /* NSDate+KLExtension.h */,
+				D532766E1ED6C5E4004DF5D2 /* NSDate+KLExtension.m */,
+			);
+			name = Utilities;
+			path = Category/Utilities;
+			sourceTree = "<group>";
+		};
+		F4CA78641EADB8070089FF58 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F457F8E41E8BDD880031EA7A /* WordChangeProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F457F9121E8BDD880031EA7A /* Build configuration list for PBXNativeTarget "WordChangeProject" */;
+			buildPhases = (
+				0F92D66B62CE6015CB073C77 /* [CP] Check Pods Manifest.lock */,
+				F457F8E11E8BDD880031EA7A /* Sources */,
+				F457F8E21E8BDD880031EA7A /* Frameworks */,
+				F457F8E31E8BDD880031EA7A /* Resources */,
+				8C66A1308AB441B9001F9A82 /* [CP] Embed Pods Frameworks */,
+				32ACC9C156DB3D78D76987F3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordChangeProject;
+			productName = WordChangeProject;
+			productReference = F457F8E51E8BDD880031EA7A /* WordChangeProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F457F8FD1E8BDD880031EA7A /* WordChangeProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F457F9151E8BDD880031EA7A /* Build configuration list for PBXNativeTarget "WordChangeProjectTests" */;
+			buildPhases = (
+				F457F8FA1E8BDD880031EA7A /* Sources */,
+				F457F8FB1E8BDD880031EA7A /* Frameworks */,
+				F457F8FC1E8BDD880031EA7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F457F9001E8BDD880031EA7A /* PBXTargetDependency */,
+			);
+			name = WordChangeProjectTests;
+			productName = WordChangeProjectTests;
+			productReference = F457F8FE1E8BDD880031EA7A /* WordChangeProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F457F9081E8BDD880031EA7A /* WordChangeProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F457F9181E8BDD880031EA7A /* Build configuration list for PBXNativeTarget "WordChangeProjectUITests" */;
+			buildPhases = (
+				F457F9051E8BDD880031EA7A /* Sources */,
+				F457F9061E8BDD880031EA7A /* Frameworks */,
+				F457F9071E8BDD880031EA7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F457F90B1E8BDD880031EA7A /* PBXTargetDependency */,
+			);
+			name = WordChangeProjectUITests;
+			productName = WordChangeProjectUITests;
+			productReference = F457F9091E8BDD880031EA7A /* WordChangeProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F457F8DD1E8BDD880031EA7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KL;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "凯伦";
+				TargetAttributes = {
+					F457F8E41E8BDD880031EA7A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5HV67W226Y;
+						ProvisioningStyle = Automatic;
+					};
+					F457F8FD1E8BDD880031EA7A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F457F8E41E8BDD880031EA7A;
+					};
+					F457F9081E8BDD880031EA7A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F457F8E41E8BDD880031EA7A;
+					};
+				};
+			};
+			buildConfigurationList = F457F8E01E8BDD880031EA7A /* Build configuration list for PBXProject "WordChangeProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F457F8DC1E8BDD880031EA7A;
+			productRefGroup = F457F8E61E8BDD880031EA7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F457F8E41E8BDD880031EA7A /* WordChangeProject */,
+				F457F8FD1E8BDD880031EA7A /* WordChangeProjectTests */,
+				F457F9081E8BDD880031EA7A /* WordChangeProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F457F8E31E8BDD880031EA7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D526832A1EDEAA04006B4D8A /* KLTieziPictureView.xib in Resources */,
+				D53276601ED2DBD7004DF5D2 /* KLTopicsCell.xib in Resources */,
+				D5BD26C01EE5890700BB0072 /* KLRecommendCell.xib in Resources */,
+				D51B50881EB8A80100A8BA74 /* KLWebViewController.xib in Resources */,
+				F479DD411EA0C8A0000F9623 /* KLLoginRegistViewController.xib in Resources */,
+				D526833A1EDEAE1C006B4D8A /* KLTopicVoiceView.xib in Resources */,
+				F479DD311EA08CD7000F9623 /* KLfriendTrendsViewController.xib in Resources */,
+				F457F8F51E8BDD880031EA7A /* Assets.xcassets in Resources */,
+				D52683301EDEAB8D006B4D8A /* KLTopicVideoView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F457F8FC1E8BDD880031EA7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F457F9071E8BDD880031EA7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F92D66B62CE6015CB073C77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		32ACC9C156DB3D78D76987F3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WordChangeProject/Pods-WordChangeProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C66A1308AB441B9001F9A82 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WordChangeProject/Pods-WordChangeProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F457F8E11E8BDD880031EA7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D53276521EC93741004DF5D2 /* KLDzViewController.m in Sources */,
+				D532765E1ED28C07004DF5D2 /* KLRefreshFooter.m in Sources */,
+				F40890771EAC8C7F0025ED27 /* KLconst.m in Sources */,
+				F4B638711E9BBF9000F7A1AC /* NSDateUtilities.m in Sources */,
+				F479DD401EA0C8A0000F9623 /* KLLoginRegistViewController.m in Sources */,
+				F4B638731E9BBF9000F7A1AC /* UIViewExt.m in Sources */,
+				D532764F1EC93735004DF5D2 /* KLPictureViewController.m in Sources */,
+				D53276461EC936EC004DF5D2 /* KLAllViewController.m in Sources */,
+				F4CA7B371EADF8850089FF58 /* KLMeFooterView.m in Sources */,
+				D526832E1EDEAB80006B4D8A /* KLTopicVideoView.m in Sources */,
+				D51B50871EB8A80100A8BA74 /* KLWebViewController.m in Sources */,
+				F4B638771E9CDAFD00F7A1AC /* KLItemManager.m in Sources */,
+				D532766F1ED6C5E4004DF5D2 /* NSDate+KLExtension.m in Sources */,
+				F4B6386B1E9BBF9000F7A1AC /* KLfriendTrendsViewController.m in Sources */,
+				D51B508B1EB9A9EF00A8BA74 /* KLSettingViewController.m in Sources */,
+				F408907A1EAC8EF20025ED27 /* KLMeViewCell.m in Sources */,
+				F4B6386E1E9BBF9000F7A1AC /* KLMeViewController.m in Sources */,
+				D526833D1EE044B5006B4D8A /* KLMainTopicViewController.m in Sources */,
+				F479DD441EA35F2B000F9623 /* KLQuickLoginBtn.m in Sources */,
+				D5BD26BF1EE5890700BB0072 /* KLRecommendCell.m in Sources */,
+				F479DD3A1EA0C852000F9623 /* KLNavigationController.m in Sources */,
+				F479DD3B1EA0C852000F9623 /* KLTabBarController.m in Sources */,
+				F479DD3C1EA0C852000F9623 /* KLTabBar.m in Sources */,
+				F479DD471EA6107C000F9623 /* KLLoginRegistTextField.m in Sources */,
+				F402C77A1EA9BA3E00A00D30 /* UITextField+KLExtenstion.m in Sources */,
+				D51B50911EBACC2000A8BA74 /* KLClearCacheCell.m in Sources */,
+				F4B638721E9BBF9000F7A1AC /* UIImage+XMGResizing.m in Sources */,
+				D532765B1ECB321B004DF5D2 /* KLRefreshHeader.m in Sources */,
+				D53276551ECA8BCA004DF5D2 /* KLTieziModel.m in Sources */,
+				D52683281EDEA9F9006B4D8A /* KLTieziPictureView.m in Sources */,
+				F4B638701E9BBF9000F7A1AC /* AppDelegate.m in Sources */,
+				D51B50831EB088FA00A8BA74 /* KLMeSquareButton.m in Sources */,
+				D51B508E1EB9DE6800A8BA74 /* NSString+KLExtension.m in Sources */,
+				D53276491EC93704004DF5D2 /* KLVideoViewController.m in Sources */,
+				D532766C1ED6BCA3004DF5D2 /* NSCalendar+KLExtension.m in Sources */,
+				D53276721ED909DA004DF5D2 /* KLUserModel.m in Sources */,
+				D52683381EDEAE10006B4D8A /* KLTopicVoiceView.m in Sources */,
+				D53276781ED909FC004DF5D2 /* KLCommentModel.m in Sources */,
+				D52683411EE0F4A7006B4D8A /* KLPlayVideoViewController.m in Sources */,
+				D53276631ED2DC1F004DF5D2 /* KLTopicsCell.m in Sources */,
+				F4B6386F1E9BBF9000F7A1AC /* KLnewViewController.m in Sources */,
+				D51B50801EAF781F00A8BA74 /* KLMeSquareModel.m in Sources */,
+				D532764C1EC9371D004DF5D2 /* KLVoiceViewController.m in Sources */,
+				F4B638741E9BBF9000F7A1AC /* main.m in Sources */,
+				F4B638691E9BBF9000F7A1AC /* KLEssenceViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F457F8FA1E8BDD880031EA7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F457F9031E8BDD880031EA7A /* WordChangeProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F457F9051E8BDD880031EA7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F457F90E1E8BDD880031EA7A /* WordChangeProjectUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F457F9001E8BDD880031EA7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F457F8E41E8BDD880031EA7A /* WordChangeProject */;
+			targetProxy = F457F8FF1E8BDD880031EA7A /* PBXContainerItemProxy */;
+		};
+		F457F90B1E8BDD880031EA7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F457F8E41E8BDD880031EA7A /* WordChangeProject */;
+			targetProxy = F457F90A1E8BDD880031EA7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F457F9101E8BDD880031EA7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = WordChangeProject/Classes/Other/Category/PrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F457F9111E8BDD880031EA7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = WordChangeProject/Classes/Other/Category/PrefixHeader.pch;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F457F9131E8BDD880031EA7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6D970022CEA8BCEB0D28BB4 /* Pods-WordChangeProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 5HV67W226Y;
+				INFOPLIST_FILE = WordChangeProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KL.WordChangeProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F457F9141E8BDD880031EA7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5454FD2BE1C4D0CEEB7AFC9 /* Pods-WordChangeProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 5HV67W226Y;
+				INFOPLIST_FILE = WordChangeProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KL.WordChangeProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F457F9161E8BDD880031EA7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WordChangeProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KL.WordChangeProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordChangeProject.app/WordChangeProject";
+			};
+			name = Debug;
+		};
+		F457F9171E8BDD880031EA7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WordChangeProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KL.WordChangeProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordChangeProject.app/WordChangeProject";
+			};
+			name = Release;
+		};
+		F457F9191E8BDD880031EA7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WordChangeProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KL.WordChangeProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WordChangeProject;
+			};
+			name = Debug;
+		};
+		F457F91A1E8BDD880031EA7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WordChangeProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KL.WordChangeProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WordChangeProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F457F8E01E8BDD880031EA7A /* Build configuration list for PBXProject "WordChangeProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F457F9101E8BDD880031EA7A /* Debug */,
+				F457F9111E8BDD880031EA7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F457F9121E8BDD880031EA7A /* Build configuration list for PBXNativeTarget "WordChangeProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F457F9131E8BDD880031EA7A /* Debug */,
+				F457F9141E8BDD880031EA7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F457F9151E8BDD880031EA7A /* Build configuration list for PBXNativeTarget "WordChangeProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F457F9161E8BDD880031EA7A /* Debug */,
+				F457F9171E8BDD880031EA7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F457F9181E8BDD880031EA7A /* Build configuration list for PBXNativeTarget "WordChangeProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F457F9191E8BDD880031EA7A /* Debug */,
+				F457F91A1E8BDD880031EA7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F457F8DD1E8BDD880031EA7A /* Project object */;
+}
